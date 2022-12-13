@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #edeae7;
+}
+
+.container{
+    margin-top: 300px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+section form {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+section form input {
+    height: 40px;
+    width: 300px;
+}
+
+section form button{
+    height: 40px;
+    width: 100px;
+}
+
+section ul {
+    margin-left: 750px;
+    padding-top: 15px;
+}
+
+section ul li{
+    padding: 10px
+}
+
+section ul li:hover{
+    cursor: pointer;
+}
+
+span {
+    font-weight: bold;
+    font-size: large;
+}
+
+.risco{
+   text-decoration: line-through;
+}
