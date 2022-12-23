@@ -1,0 +1,40 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(104, 196, 233));;
+}
+
+.bloco-principal {
+    width: 700px;
+    height: 800px;
+    background-color: rgb(233, 246, 255);
+    border-radius: 25px;
+    margin-top: 60px;
+    padding: 60px;
+}
+
+h2 {
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+
+.conteudo {
+    margin: 90px 0;
+    padding: 0 110px;
+}
+
+.botao {
+    margin-top: 16px;
+}
+
+.inputs {
+    margin-bottom: 20px;
+}
+
+
+
+
+
