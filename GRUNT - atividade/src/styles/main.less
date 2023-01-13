@@ -1,0 +1,33 @@
+@corDeFundo: #000;
+@font: 'Lobster', cursive;
+@text: #fff;
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    font-family: @font;
+}
+
+body {
+    background-color: @corDeFundo;
+}
+
+#btn {
+    .display();
+    color: @text;
+    background-color: @corDeFundo;
+    margin: 350px auto;
+    font-size: 4em;
+    cursor: pointer;
+}
+
+.msg {
+    .display();
+    color: @text;
+    display: none;
+}
+
