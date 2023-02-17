@@ -14,15 +14,12 @@ alunos[3].nota = 6.2;
 alunos[4].nota = 3.3;
 alunos[5].nota = 7;
 
-const Aprovado = () => {
-    alunos.forEach(function(i) {
-        if(i.nota >= 6) {
-            console.log(`O aluno(a) ${i.nome} está aprovado(a) com nota equivalente a ${i.nota}`);
-        } else {
-            console.log(`O aluno(a) ${i.nome} está reprovado(a) com nota equivalente a ${i.nota}`);
-        }
-    })
+const filtarAprovados = (i) => {
+    return i.nota >= 6
 }
 
-console.log(alunos)
-Aprovado()
+const aprovados = alunos.filter(filtarAprovados);
+
+console.log(aprovados);
+
+
